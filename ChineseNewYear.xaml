@@ -75,14 +75,12 @@
     </Style>
     <Style
         x:Key="ItemTitleSelectedStyle"
-        BasedOn="{StaticResource BaseItemTitleSelectedStyle}"
         TargetType="{x:Type TextBlock}">
         <Setter Property="Cursor" Value="Arrow" />
         <Setter Property="Foreground" Value="#831212" />
     </Style>
     <Style
         x:Key="ItemSubTitleSelectedStyle"
-        BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}"
         TargetType="{x:Type TextBlock}">
         <Setter Property="Cursor" Value="Arrow" />
         <Setter Property="Foreground" Value="#ffffff" />
@@ -103,7 +101,6 @@
     </Style>
     <Style
         x:Key="ItemHotkeySelectedStyle"
-        BasedOn="{StaticResource BaseItemHotkeySelecetedStyle}"
         TargetType="{x:Type TextBlock}">
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Foreground" Value="#CC232A" />
